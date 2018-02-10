@@ -33,11 +33,13 @@
             android:name=".Home.HomeActivity"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme2">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
         <activity
             android:name=".Messages.MessagesActivity"
@@ -74,6 +76,7 @@
         <activity
             android:name=".Donate"
             android:theme="@style/AppTheme2">
+
         </activity>
         <activity android:name=".PaymentDetails"></activity>
     </application>

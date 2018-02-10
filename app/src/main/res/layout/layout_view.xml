@@ -13,38 +13,50 @@
             android:background="@drawable/white_grey_border_bottom">
 
             <LinearLayout
-                android:id="@+id/linearLayout1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/white_black_border_bottom"
                 android:orientation="horizontal"
+                android:id="@+id/linearLayout1"
+                android:background="@drawable/blue_green_border_bottom"
                 android:weightSum="100">
 
                 <RelativeLayout
                     android:layout_width="0dp"
+                    android:layout_weight="35"
+                    android:layout_height="match_parent">
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="0dp"
                     android:layout_height="match_parent"
-                    android:layout_marginLeft="20dp"
-                    android:layout_weight="35">
+                    android:layout_weight="30"
+                    android:gravity="center"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp">
 
                     <de.hdodenhof.circleimageview.CircleImageView
-                        android:id="@+id/profile_image"
                         android:layout_width="150dp"
                         android:layout_height="100dp"
-                        android:layout_centerVertical="true"
-                        android:src="@drawable/profileuser"
+                        android:id="@+id/profile_image"
                         app:civ_border_color="@color/black"
-                        app:civ_border_width="1.5dp" />
+                        app:civ_border_width="1.5dp"
+                        android:src="@drawable/profileuser"
+                        android:layout_centerVertical="true"/>
+
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/ic_messages"
+                        android:background="@color/transparent"/>
 
                 </RelativeLayout>
 
                 <RelativeLayout
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginRight="30dp"
-                    android:layout_weight="65">
-
-                    <include layout="@layout/snippet_top_profile" />
+                    android:layout_weight="35"
+                    android:layout_height="match_parent">
 
                 </RelativeLayout>
 
@@ -54,78 +66,79 @@
                 android:id="@+id/linearLayout2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/linearLayout1"
-                android:background="@drawable/blue_green_border_bottom"
                 android:orientation="vertical"
+                android:layout_below="@id/linearLayout1"
+                android:background="@drawable/green_black_border_bottom"
                 android:padding="20dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:gravity="center">
 
                     <ImageView
                         android:id="@+id/img1"
                         android:layout_width="35dp"
                         android:layout_height="30dp"
-                        android:layout_marginRight="15dp"
-                        android:src="@drawable/name" />
+                        android:src="@drawable/ic_vname"
+                        android:layout_marginRight="15dp"/>
 
                     <TextView
-                        android:id="@+id/display_name"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Sean"
+                        android:id="@+id/display_name"
                         android:textColor="@color/black"
+                        android:textStyle="bold"
                         android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:text="Sean" />
 
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:gravity="center">
 
                     <ImageView
                         android:id="@+id/img2"
                         android:layout_width="35dp"
                         android:layout_height="30dp"
-                        android:layout_marginRight="15dp"
-                        android:src="@drawable/ic_email" />
+                        android:src="@drawable/ic_vemail"
+                        android:layout_marginRight="15dp"/>
 
                     <TextView
-                        android:id="@+id/display_email"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="officialsuzuen@gmail.com"
+                        android:id="@+id/display_email"
                         android:textColor="@color/black"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        android:text="officialsuzuen@gmail.com" />
 
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:gravity="center">
 
                     <ImageView
                         android:id="@+id/img3"
                         android:layout_width="35dp"
                         android:layout_height="30dp"
-                        android:layout_marginRight="15dp"
-                        android:src="@drawable/phone" />
+                        android:src="@drawable/ic_vphone"
+                        android:layout_marginRight="15dp" />
 
                     <TextView
-                        android:id="@+id/display_contact"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="09280239038"
+                        android:id="@+id/display_contact"
                         android:textColor="@color/black"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        android:text="09280239038"
+                        />
 
                 </LinearLayout>
 
@@ -137,18 +150,17 @@
             android:id="@+id/relativeLayout3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/relativeLayout2"
-            android:layout_marginBottom="50dp">
+            android:layout_below="@+id/relativeLayout2">
 
             <GridView
-                android:id="@+id/gridView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:horizontalSpacing="1dp"
+                android:id="@+id/gridView"
                 android:numColumns="3"
-                android:stretchMode="columnWidth"
-                android:verticalSpacing="1dp">
+                android:verticalSpacing="1dp"
+                android:horizontalSpacing="1dp"
+                android:gravity="center"
+                android:stretchMode="columnWidth">
 
             </GridView>
 
