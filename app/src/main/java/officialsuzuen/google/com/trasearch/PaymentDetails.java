@@ -35,8 +35,8 @@ public class PaymentDetails extends AppCompatActivity {
     private void showDetails(JSONObject response, String paymentAmount) {
         try {
             txtId.setText(response.getString("id"));
-            txtAmount.setText(response.getString("state"));
-            txtStatus.setText("$" + paymentAmount);
+            txtStatus.setText(response.getString("state"));
+            txtAmount.setText("$" + paymentAmount);
         } catch (JSONException e) {
             e.printStackTrace();
         }

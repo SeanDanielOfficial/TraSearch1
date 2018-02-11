@@ -83,7 +83,7 @@
                 android:orientation="horizontal"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
-                android:paddingTop="15dp"
+                android:layout_marginTop="10dp"
                 android:weightSum="100">
 
                 <ImageView
@@ -117,7 +117,7 @@
                 android:weightSum="100"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
-                android:paddingTop="15dp">
+                android:layout_marginTop="10dp">
 
                 <ImageView
                     android:layout_width="0dp"
@@ -126,7 +126,6 @@
                     android:padding="5dp"
                     android:layout_marginRight="3dp"
                     android:src="@drawable/password"
-
                     android:background="@drawable/border2"/>
 
                 <EditText
@@ -148,12 +147,12 @@
                 android:orientation="horizontal"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
-                android:paddingTop="5dp">
+                android:layout_marginTop="5dp">
 
                 <Button
                     android:id="@+id/loginBtn"
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_height="40dp"
                     android:text="Sign In"
                     android:layout_gravity="center"
                     android:background="@drawable/buttondesign"
@@ -198,13 +197,12 @@
                 android:layout_weight="12.5"
                 android:orientation="horizontal"
                 android:layout_marginLeft="25dp"
-                android:layout_marginRight="25dp"
-                android:paddingTop="5dp">
+                android:layout_marginRight="25dp">
 
                 <Button
                     android:id="@+id/loginBtn2"
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_height="40dp"
                     android:text="Create an Account"
                     android:background="@drawable/buttondesign"
                     android:stateListAnimator="@null"/>
@@ -215,8 +213,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="12.5"
-                android:orientation="horizontal"
-                android:paddingBottom="15dp">
+                android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/loginTx2"
@@ -224,7 +221,6 @@
                     android:layout_height="match_parent"
                     android:layout_alignBottom="@+id/cardView"
                     android:layout_centerHorizontal="true"
-                    android:layout_marginBottom="24dp"
                     android:gravity="center"
                     android:text="Forgot Password?" />
 
