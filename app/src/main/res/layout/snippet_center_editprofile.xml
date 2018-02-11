@@ -33,7 +33,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
-                    android:src="@drawable/ic_pencil"
+                    android:src="@drawable/pen"
                     />
                 <TextView
                     android:paddingLeft="5dp"
@@ -44,7 +44,7 @@
                     android:id="@+id/changeProfilePhoto"
                     android:textSize="20sp"
                     android:layout_toRightOf="@+id/pencil"
-                    android:textColor="@color/blue"/>
+                    android:textColor="@color/black"/>
             </RelativeLayout>
 
             <RelativeLayout
@@ -58,7 +58,7 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/name"
+                    android:src="@drawable/final_name"
                     android:paddingLeft="6dp"
                     android:paddingRight="2dp"
                     android:paddingTop="1dp"
@@ -92,7 +92,7 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/password"
+                    android:src="@drawable/final_password"
                     android:paddingLeft="3dp"
                     android:layout_marginLeft="20dp"
                     android:layout_centerVertical="true"
@@ -122,7 +122,7 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/ic_email"
+                    android:src="@drawable/final_email"
                     android:paddingTop="5dp"
                     android:layout_marginLeft="20dp"
                     android:paddingBottom="4dp"
@@ -158,11 +158,11 @@
                 <ImageView
                     android:layout_width="40dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/phone"
+                    android:src="@drawable/final_phone"
                     android:paddingLeft="4dp"
                     android:layout_marginLeft="20dp"
                     android:paddingBottom="3dp"
-                    android:paddingTop="2dp"
+                    android:paddingTop="4dp"
                     android:layout_centerVertical="true"
                     android:background="@drawable/border2"/>
                 <EditText
