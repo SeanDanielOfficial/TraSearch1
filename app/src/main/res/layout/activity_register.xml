@@ -109,7 +109,7 @@
                     android:layout_width="0dp"
                     android:layout_height="40dp"
                     android:layout_gravity="center"
-                    android:src="@drawable/name"
+                    android:src="@drawable/final_name"
                     android:background="@drawable/border2"
                     android:layout_marginRight="3dp"
                     android:layout_weight="20"
@@ -150,7 +150,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/password"
+                    android:src="@drawable/final_password"
                     android:layout_gravity="center"
                     android:background="@drawable/border2"
                     android:layout_marginRight="3dp"
@@ -192,7 +192,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/password"
+                    android:src="@drawable/final_password"
                     android:layout_gravity="center"
                     android:background="@drawable/border2"
                     android:layout_marginRight="3dp"
@@ -234,7 +234,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/ic_email"
+                    android:src="@drawable/final_email"
                     android:layout_gravity="center"
                     android:background="@drawable/border2"
                     android:layout_marginRight="3dp"
@@ -276,7 +276,7 @@
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="40dp"
-                    android:src="@drawable/phone"
+                    android:src="@drawable/final_phone"
                     android:layout_gravity="center"
                     android:background="@drawable/border2"
                     android:layout_marginRight="3dp"
