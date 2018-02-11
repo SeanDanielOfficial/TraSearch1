@@ -59,7 +59,7 @@ public class ProfileActivity extends AppCompatActivity{
         });
     }
 
-    private void setupToolbar() {
+    /*private void setupToolbar() {
         Toolbar toolbar = (Toolbar) findViewById(R.id.profileToolBar);
         setSupportActionBar(toolbar);
 
@@ -75,7 +75,7 @@ public class ProfileActivity extends AppCompatActivity{
                 return false;
             }
         });
-    }
+    }*/
     private void setupBottomNavigationView() {
         Log.d(TAG, "setupBottomNavigationView: setting up BottomNavigationView");
         BottomNavigationViewEx bottomNavigationViewEx = (BottomNavigationViewEx) findViewById(R.id.bottomNavViewBar);
