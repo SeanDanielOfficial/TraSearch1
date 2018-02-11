@@ -50,8 +50,8 @@
             <RelativeLayout
                 android:layout_below="@+id/relChange"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_marginTop="60dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
                 android:background="@color/blue"
                 android:id="@+id/relative1">
 
@@ -84,9 +84,9 @@
             <RelativeLayout
                 android:layout_below="@+id/relative1"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="55dp"
                 android:background="@color/blue"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="10dp"
                 android:id="@+id/relative2">
 
                 <ImageView
@@ -100,7 +100,7 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="40dp"
-                    android:id="@+id/password"
+                    android:id="@+id/oldPassword"
                     android:layout_centerVertical="true"
                     android:hint="Password"
                     android:paddingLeft="15dp"
@@ -114,10 +114,78 @@
             <RelativeLayout
                 android:layout_below="@+id/relative2"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="55dp"
                 android:background="@color/blue"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="10dp"
                 android:id="@+id/relative3">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/final_password"
+                    android:paddingTop="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:paddingBottom="4dp"
+                    android:paddingLeft="4dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/border2"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/newPassword"
+                    android:layout_centerVertical="true"
+                    android:hint="New Password"
+                    android:paddingLeft="15dp"
+                    android:layout_marginLeft="63dp"
+                    android:background="@drawable/backgroundborder"
+                    android:inputType="textPassword"
+                    android:layout_marginRight="20dp"
+                    />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_below="@+id/relative3"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@color/blue"
+                android:layout_marginTop="10dp"
+                android:id="@+id/relative4">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/final_password"
+                    android:paddingLeft="4dp"
+                    android:layout_marginLeft="20dp"
+                    android:paddingBottom="3dp"
+                    android:paddingTop="4dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/border2"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:id="@+id/confirmPassword"
+                    android:layout_centerVertical="true"
+                    android:hint="Confirm Password"
+                    android:paddingLeft="15dp"
+                    android:layout_marginLeft="63dp"
+                    android:background="@drawable/backgroundborder"
+                    android:inputType="textPassword"
+                    android:layout_marginRight="20dp"
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_below="@+id/relative4"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@color/blue"
+                android:layout_marginTop="10dp"
+                android:id="@+id/relative5">
 
                 <ImageView
                     android:layout_width="40dp"
@@ -145,15 +213,13 @@
 
             </RelativeLayout>
 
-
             <RelativeLayout
-                android:layout_below="@+id/relative3"
+                android:layout_below="@+id/relative5"
                 android:layout_width="match_parent"
-                android:layout_height="60dp"
+                android:layout_height="55dp"
                 android:background="@color/blue"
-                android:layout_marginTop="15dp"
-
-                android:id="@+id/relative4">
+                android:layout_marginTop="10dp"
+                android:id="@+id/relative6">
 
                 <ImageView
                     android:layout_width="40dp"
@@ -179,10 +245,12 @@
                     />
 
             </RelativeLayout>
+
+
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="100dp"
-                android:layout_below="@id/relative4"
+                android:layout_height="50dp"
+                android:layout_below="@id/relative6"
                 android:background="@color/green">
 
             </RelativeLayout>
