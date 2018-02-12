@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_gradient_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ts"/>
+
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:paddingRight="12dp"
+            android:drawableRight="@drawable/iconsearch"
+            android:background="@drawable/border"
+            android:hint="Search for recycling tutorials"
+            android:textColorHint="#000000"
+            android:paddingLeft="20dp"/>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_marginTop="70dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Sign In"
+            android:background="@drawable/btn"
+            android:stateListAnimator="@null"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_marginTop="10dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Register"
+            android:background="@drawable/btn"
+            android:stateListAnimator="@null"/>
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="OR"
+            android:textColor="#000000"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:drawableLeft="@drawable/facebook"
+            android:paddingRight="20dp"
+            android:background="@drawable/btnfacebook"
+            android:text="Sign in with Facebook"
+            android:textColor="@color/white"
+            android:stateListAnimator="@null"/>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:paddingRight="30dp"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="18dp"
+            android:drawableLeft="@drawable/gg"
+            android:text="Sign in with Google"
+            android:background="@drawable/btngoogle"
+            android:textColor="@color/white"
+            android:stateListAnimator="@null"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
